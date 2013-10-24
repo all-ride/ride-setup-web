@@ -1,0 +1,17 @@
+{
+    "name": "pallo/setup-web",
+    "description": "Setup the Pallo web interface through the Composer dependency manager.",
+    "version": "0.1.0",
+    "type": "pallo-setup",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "pallo/setup": ">=0.1.0",
+        "pallo/setup-app": ">=0.1.0",
+        "pallo/web": ">=0.1.0"
+    }
+}
