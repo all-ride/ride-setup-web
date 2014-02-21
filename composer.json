@@ -1,8 +1,8 @@
 {
-    "name": "pallo/setup-web",
-    "description": "Setup the Pallo web interface through the Composer dependency manager.",
+    "name": "ride/setup-web",
+    "description": "Setup the Ride web interface through the Composer dependency manager.",
     "version": "0.1.0",
-    "type": "pallo-setup",
+    "type": "ride-setup",
     "authors": [
         {
             "name": "Joris Vandeweerd",
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "pallo/setup": ">=0.1.0",
-        "pallo/setup-app": ">=0.1.0",
-        "pallo/web": ">=0.1.0"
+        "ride/setup": ">=0.1.0",
+        "ride/setup-app": ">=0.1.0",
+        "ride/web": ">=0.1.0"
     }
 }
