@@ -1,7 +1,7 @@
 {
     "name": "ride/setup-web",
     "description": "Setup the Ride web interface through the Composer dependency manager.",
-    "version": "0.1.0",
+    "license": "MIT",
     "type": "ride-setup",
     "authors": [
         {
@@ -10,8 +10,10 @@
         }
     ],
     "require": {
-        "ride/setup": ">=0.1.0",
-        "ride/setup-app": ">=0.1.0",
-        "ride/web": ">=0.1.0"
+        "ride/setup": "^1.0.0",
+        "ride/setup-app": "^1.0.0",
+        "ride/setup-cli": "^1.0.0",
+        "ride/cli-web": "^1.0.0",
+        "ride/web": "^1.0.0"
     }
 }
